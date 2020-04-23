@@ -1,0 +1,88 @@
+<html>
+     <head>
+          <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"></script>
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+          <link rel="stylesheet" href="style.css"
+          <title>My website</title>
+     </head>
+     <body>
+           <nav>
+             <div class="nav-wrapper black">
+                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                 <ul class="nav-links hide-on-med-and-down">
+                    <li><a href="sass.html">About me</a></li>
+                    <li><a href="badges.html">Hot picks</a></li>
+                    <li><a href="collapsible.html">Gallery</a></li>
+                    <li><a href="mobile.html">Contact me</a></li>
+                  </ul>
+              </div>
+           </nav>
+            
+            <ul class="sidenav" id="mobile-demo">
+              <li><a href="sass.html">About me</a></li>
+              <li><a href="badges.html">Hot pics</a></li>
+              <li><a href="collapsible.html">Gallery</a></li>
+              <li><a href="mobile.html">Contact me</a></li>
+            </ul>
+      <script>
+               $(document).ready(function(){
+               $('.sidenav').sidenav();
+               });
+      </script>
+
+      <div class="about-me">
+           <img src="https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="pic">
+           <h3 class="about-me-text center"><b>HI THERE,<br>ITS ME NUTAN </b></h3>
+      </div>
+
+      <div class="me">
+        <img src="https://images.unsplash.com/photo-1583621908511-e082803e3aa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=626&q=80" class="yellow">
+        <h1 class="me-header center white-text ">Why me??</h1>    
+        <p class="me-text white-text "> Every single morning, you spend an hour picking out the perfect outfit, twenty minutes looking for a complimentary backdrop, five waiting for strangers to get out of your shot, fifteen taking pictures, and another twenty thinking up a brilliant fashion caption. And that's all before the school bus arrives.
+          <br> I know the struggle – and I've got your back.
+       </p>
+      </div>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>>
+
+    <footer>
+    <div class="row container" style="align-items: center;">
+           <div class="col 4">
+             <img src="https://static.vecteezy.com/system/resources/thumbnails/000/604/692/small/2902-01.jpg" style="height: 150px" >
+           </div>
+           <div class="col 4">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+              
+           </div>
+           <div class="col 4">
+               <p>phone : 0000000000</p>
+               <p>email : chic.gmail.com</p>
+               <p><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Know more</a></p>
+           </div>
+           <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>MORE</h4>
+      <p>Though some questions deserve more deliberation than others, all of them warrant some level of thought, which is why building up an arsenal of sage advice—especially sage advice rendered in approachable pithy phrases—can be such a useful practice.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <script>
+  $(document).ready(function(){
+    $('.modal').modal();
+  });</script>
+          
+    </div>
+  </footer>
+           
+     </body>
+</html>     
